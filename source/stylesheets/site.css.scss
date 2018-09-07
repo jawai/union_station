@@ -1,0 +1,58 @@
+body {
+  padding-top: 96px;
+}
+
+.container {
+  max-width: 960px;
+}
+/*
+ * Extra utilities
+ */
+
+ .overflow-hidden { overflow: hidden; }
+
+ .disable-link {
+   /* Make the disabled links grayish*/
+   color: gray;
+   /* And disable the pointer events */
+   pointer-events: none;
+ }
+
+ .logo-brand {
+   margin-left: 100px;
+ }
+
+.nav-left-margin {
+  margin-left: -150px;
+}
+
+.menu-margin {
+  margin-top:56px;
+  background-color: orange;
+}
+
+.hamburger-size {
+  font-size: 0.77rem;
+}
+
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  .nav-hide {
+    display: none;
+  }
+
+  .nav-left-margin {
+    margin-left: auto;
+  }
+
+  .menu-margin {
+    display: none;
+  }
+}
